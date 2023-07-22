@@ -19,7 +19,8 @@
   border: none;
   text-decoration: none;
   text-transform: capitalize;
-  transition: all 0.2s linear, width none;
+  transition: all 0.2s linear;
+  transition: width none;
 }
 
 html {
@@ -105,4 +106,23 @@ html::-webkit-scrollbar-thumb {
 
 #search-btn {
   display: none;
+}
+
+.header .header-2 {
+  background: var(--blue);
+}
+
+.header .header-2 .navbar {
+  text-align: center;
+}
+
+.header .header-2 .navbar a {
+  color: #fff;
+  display: inline-block;
+  padding: 1.2rem;
+  font-size: 1.7rem;
+}
+
+.header .header-2 .navbar a:hover {
+  background: var(--dark-blue);
 }
