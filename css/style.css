@@ -17,10 +17,9 @@
   box-sizing: border-box;
   outline: none;
   border: none;
-  text-decoration: none;
+  text-decoration: none !important;
   text-transform: capitalize;
-  transition: all 0.2s linear;
-  transition: width none;
+  transition: all 0.2s linear, width none;
 }
 
 html {
@@ -125,4 +124,8 @@ html::-webkit-scrollbar-thumb {
 
 .header .header-2 .navbar a:hover {
   background: var(--dark-blue);
+}
+
+body {
+  height: 300rem;
 }
